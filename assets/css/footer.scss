@@ -1,0 +1,119 @@
+.footer
+{
+    word-break: break-word;
+    .form-control{
+        height: 40px;
+        border-radius: 3px;
+    }
+    span a{ color: #777;}
+    textarea.form-control{ height: 90px !important;}
+    .list-inline.right-seperator li
+    {
+        padding-right: 15px;
+        font-size: 0.75rem;
+        a{
+            position: relative;
+            text-transform: none;
+            word-wrap: break-word;
+            font-size: 0.875rem;
+            font-weight: 400;
+            line-height: 1.875rem;
+            &:after {
+                content: "";
+                border-right: solid 1px #969696;
+                position: absolute;
+                right: -10px;
+                height: 18px;
+                top: 1px;
+                left: 0;
+            }
+        }
+        &:last-child
+        {
+            a{
+                &:after{display: none;}
+            }
+        }
+    }
+    .footer-title
+    {
+        h6{    letter-spacing: 2px;}
+    }
+    .footer-link
+    {
+        ul{margin: 0px;
+    padding: 0px;
+        li{    list-style: none;}}
+    }
+    .footer-details{
+    a{ 
+        &:hover{ color: $white;}
+    }
+}
+}
+.footer-bottom
+{
+    background-color: $bottom-bg;
+    a, span, span a {
+        color: #777;
+    }
+    .list-inline-item{
+        a{
+            font-size: 1rem;
+        }
+    }
+}
+.image-bg:not(.light-bg)
+{
+    footer span, footer p, footer a {
+        color: $white;
+    }
+    .footer-bottom
+    {
+        background-color: rgba(27, 27, 27, .50);
+        a, span, span a {
+            color: $white;
+        }
+    }
+
+}
+.footer-social a{
+    transition: all 0.35s;
+    &:hover{
+        transform: translate3d(0, -4px, 0);
+        -webkit-transform: translate3d(0, -4px, 0);
+    }
+}
+/*===========Footer 2==============*/
+.left-block{
+    float: left;
+}
+.overflow, .tweet, .tweet .col-4 {
+    overflow: hidden;
+    word-wrap: break-word;
+}
+.overflow .btn-link{ text-decoration: none;}
+/**********footer 2**********/
+.footer-link ul li a, ul.privacy-policy li a{ 
+    line-height: 34px;
+}
+.bg-grey .footer-bottom{ 
+    background-color: $bg-gray;
+}
+
+.bg-dark .footer-bottom{
+    border-color: $dark;
+}
+.image-bg .footer-bottom{
+    border-color: rgba(27, 27, 27, 0.1);
+}
+.bg-dark
+{
+    .footer-social a
+    { 
+        color: $white;
+    }
+    #footer{ background-color: $dark;
+    }
+
+} 

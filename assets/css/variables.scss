@@ -1,0 +1,74 @@
+/*-----------------------Background Color------------------------------------*/
+$bg-gray: #f6f6f6 !important;
+
+$bottom-bg: #1c1c1c;
+
+$bg-primary: #494dff !important;
+
+$bg-primary-light: #abaeff;
+
+$bg-secondary: #fc1e4e;
+
+$bg-secondary-light: #ffb0c1;
+
+$bg-light: #e1e1e1 !important;
+
+$bg-pink: #fc1e4f !important;
+
+$deep-pink: #fc2fa3 !important;
+/*-----------------------Text-Color------------------------------------*/
+$body-color: #727272;
+
+$dark: #1e1e1e !important;
+
+$secondry: #fc1e4e;
+
+$secondary-light: #ffb0c1;
+
+$primary: #494dff !important;
+
+$primary-light: #abaeff !important;
+
+$primary-light-2: #8b8eff !important;
+
+$white: #fff !important;
+
+$light-gray : #c3c3c3 !important;
+
+$text-light : #e1e1e1 !important;
+
+$yellow: #ffc107 !important;
+
+$pacific: #9ccc02 !important;
+
+$light-pacific: #daff65 !important;
+
+$dark-orange: #ff6c00 !important;
+
+$text-orange-light: #ff8c38 !important;
+
+$deep-light-text: #fc2fa3 !important;
+/*-----------------------Font Family------------------------------------*/
+$body-font: 'Open Sans', sans-serif;
+$primary-font: 'Montserrat', sans-serif;
+$playfair-font: 'Playfair Display', sans-serif;
+
+/*-----------------------Border Color------------------------------------*/
+$border-light : #e1e1e1 !important;
+$border-light-blue : #6c6fff !important;
+$border-primary: #494dff !important;
+$border-pink: #fc1e4f;
+$border-dark : #2c2c2c !important;
+$border-pink-light: #ff4d75 !important;
+$deep-light: #fcacd9 !important;
+/*-----------------------Line Height------------------------------------*/
+$body-line-height: 1.75rem;
+$desktop-width: 1280px;
+
+
+/*-----------------------Font Family Import------------------------------------*/
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script:400,700');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i,900,900i');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i,900,900i|Slabo+27px');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
